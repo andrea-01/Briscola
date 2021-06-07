@@ -40,7 +40,6 @@ void stop(){
 
 int main(){
 
-
 	int choice = 0;	//Scelta della voce del menu
 	int menu = 1;	//Indica in che menu ci si trova
 	char ch;	//Per svuotare il buffer
