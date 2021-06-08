@@ -97,11 +97,12 @@ int carica_partita(Partita* my_partita, Player elenco_utenti, int* turno, int* o
 	fgetc(f);
 
 	//Debug per verificare la corretta lettura dei dati
-	printf("Username1: %s\nUsername2: %s\nPoints1: %d\nPoints2: %d\nTurno: %d\nValue: %d\nSeme: %s\n\n", username1, username2, points1, points2, *turno, value, seme);
+/*	printf("\n\n\tUser 1: %s\n\tUser 2: %s\n\tTurno: %d\n\t\t\t\tPremi INVIO per continuare\n", username1, username2, *turno);
 	scanf("[\n]");
 	//Svuoto il buffer
 	char ch;
 	while((ch = getchar()) != EOF && ch != '\n');
+*/
 
 	//Cerco gli utenti nell'elenco e ne conservo i puntatori
 	Player temp_user1 = ricerca_username(username1, elenco_utenti);
