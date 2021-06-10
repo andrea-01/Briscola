@@ -226,6 +226,8 @@ int carica_elenchi(Player* lista_utenti, Player* leaderboard){
 	Player temp_utente;
 	char username[9], password[9];
 	int punteggio, admin;
+
+//	Utilizzare una pila di appoggio / puntatore tail
 	while(fscanf(f, "%s %s %d %d\n", username, password, &punteggio, &admin) != EOF){
 		temp_utente = crea_user(username, password, admin);
 		temp_utente->punteggio = punteggio;
