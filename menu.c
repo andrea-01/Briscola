@@ -1,8 +1,8 @@
 //Includo tutte le librerie necessarie
-#include "user.h"
-#include "carte.h"
-#include "pilecarte.h"
-#include "game.h"
+#include "Librerie/user.h"
+#include "Librerie/carte.h"
+#include "Librerie/pilecarte.h"
+#include "Librerie/game.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
