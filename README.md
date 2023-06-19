@@ -1,2 +1,3 @@
 # Briscola
-Codice teastato solo su sistemi Linux, la visualizzazione potrebbe essere compromessa su altri sistemi.
+Semplice implementazione del gioco della briscola da terminale.
+Sono compresi 2 file per compilare su sistemi Linux o Windows. 

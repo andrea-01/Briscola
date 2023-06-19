@@ -5,7 +5,7 @@
 #include "Librerie/game.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
+// #include <unistd.h>
 #include <string.h>
 
 //Definisco i colori ASCII, se non gia' definiti in altre librerie
